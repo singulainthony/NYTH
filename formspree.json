@@ -1,0 +1,22 @@
+{
+  "project": "2937026199118937187",
+  "forms": {
+    "contact": {
+      "name": "Contact Form",
+      "fields": {
+        "name": {
+          "type": "text",
+          "required": true
+        },
+        "phone": {
+          "type": "text",
+          "required": true
+        },
+        "message": {
+          "type": "text",
+          "required": false
+        }
+      }
+    }
+  }
+}
