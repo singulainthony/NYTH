@@ -115,6 +115,15 @@ body {
     gap: 12px;
 }
 
+.logo-link {
+    text-decoration: none;
+    display: block;
+}
+
+.logo-link:hover .logo-main {
+    color: var(--dark-blue);
+}
+
 .logo-icon svg {
     width: 48px;
     height: 32px;
