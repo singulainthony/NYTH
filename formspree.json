@@ -4,8 +4,16 @@
     "contact": {
       "name": "Contact Form",
       "fields": {
-        "name": {
+        "firstName": {
           "type": "text",
+          "required": true
+        },
+        "lastName": {
+          "type": "text",
+          "required": true
+        },
+        "email": {
+          "type": "email",
           "required": true
         },
         "phone": {
@@ -14,7 +22,7 @@
         },
         "message": {
           "type": "text",
-          "required": false
+          "required": true
         }
       }
     }

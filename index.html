@@ -627,18 +627,26 @@
                 </div>
                 <div class="contact-form">
                     <h3>Send a Message</h3>
-                    <form action="https://formspree.io/f/2937028067924638827" method="POST">
+                    <form action="https://formspree.io/f/2937036178374786188" method="POST">
                         <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" id="name" name="name" required>
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
                         </div>
                         <div class="form-group">
-                            <label for="phone">Phone Number</label>
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
                             <input type="tel" id="phone" name="phone" required>
                         </div>
                         <div class="form-group">
-                            <label for="message">What do you need help with?</label>
-                            <textarea id="message" name="message" rows="4"></textarea>
+                            <label for="message">What do you need help with? *</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Send Message</button>
                     </form>
