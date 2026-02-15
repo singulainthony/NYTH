@@ -22,7 +22,34 @@
     <meta name="keywords" content="tech support for seniors north york, computer help for elderly willowdale, iphone help seniors, patient tech support, in-home computer help, scam protection seniors">
     <link rel="canonical" href="https://northyorktechhelp.ca/">
     <link rel="icon" type="image/svg+xml" href="media/logo-icon.svg">
-    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Critical CSS inlined for fast initial render -->
+    <style>
+        :root{--primary-blue:#2563EB;--dark-blue:#1D4ED8;--text-dark:#1E293B;--text-medium:#475569;--bg-white:#FFFFFF;--bg-light:#F8FAFC;--font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif}
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:var(--font-family);font-size:18px;line-height:1.6;color:var(--text-dark);background:var(--bg-white)}
+        .container{max-width:1200px;margin:0 auto;padding:0 24px}
+        .btn{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;border-radius:8px;font-size:16px;font-weight:600;text-decoration:none;transition:all 0.3s ease;border:none;cursor:pointer}
+        .btn-primary{background:var(--primary-blue);color:white}
+        .navbar{background:white;box-shadow:0 1px 3px rgba(0,0,0,0.1);position:sticky;top:0;z-index:1000}
+        .navbar .container{display:flex;align-items:center;justify-content:space-between;height:80px}
+        .logo{display:flex;align-items:center;gap:12px}
+        .logo-link{text-decoration:none;display:block}
+        .logo-main{font-size:16px;font-weight:700;color:var(--primary-blue);letter-spacing:0.5px}
+        .logo-sub{font-size:12px;font-weight:600;color:var(--text-medium);letter-spacing:1.5px}
+        .nav-menu{display:flex;list-style:none;gap:32px;align-items:center}
+        .nav-menu a{color:var(--text-dark);text-decoration:none;font-weight:500}
+        .hero{background:var(--bg-light);padding:100px 0 80px}
+        .hero-content{max-width:700px}
+        .hero h1{font-size:48px;font-weight:700;line-height:1.2;margin-bottom:24px;color:var(--text-dark)}
+        .hero-subtitle{font-size:20px;color:var(--text-medium);margin-bottom:32px}
+        .hero-cta{display:flex;gap:16px;flex-wrap:wrap}
+        @media (max-width:768px){.hero h1{font-size:32px}.nav-menu{display:none}.hero-cta{flex-direction:column}}
+    </style>
+    
+    <!-- Full CSS loaded asynchronously -->
+    <link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="styles.css"></noscript>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -694,27 +721,31 @@
         </div>
     </footer>
 
-    <script>
+    <script defer>
         // Mobile navigation toggle
-        const navToggle = document.querySelector('.nav-toggle');
-        const navMenu = document.querySelector('.nav-menu');
+        document.addEventListener('DOMContentLoaded', function() {
+            const navToggle = document.querySelector('.nav-toggle');
+            const navMenu = document.querySelector('.nav-menu');
 
-        navToggle.addEventListener('click', () => {
-            navMenu.classList.toggle('active');
-        });
+            if (navToggle) {
+                navToggle.addEventListener('click', () => {
+                    navMenu.classList.toggle('active');
+                });
+            }
 
-        // Smooth scroll for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                    navMenu.classList.remove('active');
-                }
+            // Smooth scroll for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                        navMenu.classList.remove('active');
+                    }
+                });
             });
         });
     </script>
