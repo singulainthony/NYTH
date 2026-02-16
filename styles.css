@@ -1027,9 +1027,16 @@ body {
 
 .ai-pricing .pricing-tiers {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 40px;
     margin: 40px 0;
+    align-items: stretch;
+}
+
+@media (max-width: 768px) {
+    .ai-pricing .pricing-tiers {
+        grid-template-columns: 1fr;
+    }
 }
 
 .pricing-tier {
@@ -1038,6 +1045,31 @@ body {
     border-radius: 12px;
     border: 2px solid #E2E8F0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.pricing-tier .pricing-features {
+    flex-grow: 1;
+    text-align: left;
+    margin: 24px 0;
+}
+
+.pricing-tier .pricing-features li {
+    padding: 8px 0;
+    padding-left: 28px;
+    position: relative;
+    color: var(--text-medium);
+    font-size: 15px;
+}
+
+.pricing-tier .pricing-features li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--accent-green);
+    font-weight: bold;
 }
 
 .pricing-tier.featured {
