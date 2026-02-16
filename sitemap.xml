@@ -18,6 +18,14 @@
     </image:image>
   </url>
   
+  <!-- AI Tutoring Page -->
+  <url>
+    <loc>https://northyorktechhelp.ca/ai-tutoring/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
   <!-- Blog Index -->
   <url>
     <loc>https://northyorktechhelp.ca/blog/</loc>
