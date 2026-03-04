@@ -48,7 +48,68 @@
     <priority>0.8</priority>
   </url>
   
-  <!-- Blog Posts -->
+  <!-- Blog Posts - March 2026 -->
+  <url>
+    <loc>https://northyorktechhelp.ca/blog/email-setup-iphone-seniors.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://northyorktechhelp.ca/blog/images/email-setup-iphone/hero-email-setup.png</image:loc>
+      <image:title>Setting up email on iPhone for North York seniors</image:title>
+      <image:caption>Step-by-step guide to add Gmail, Yahoo, Outlook email to iPhone</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://northyorktechhelp.ca/blog/avoid-tech-scams-seniors.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://northyorktechhelp.ca/blog/images/avoid-tech-scams/hero-scam-protection.png</image:loc>
+      <image:title>Scam protection guide for North York seniors</image:title>
+      <image:caption>How to avoid tech scams targeting seniors in North York and Toronto</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://northyorktechhelp.ca/blog/speed-up-computer-toronto-seniors.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://northyorktechhelp.ca/blog/images/speed-up-slow-computer/hero-speed-up-computer.png</image:loc>
+      <image:title>Speed up slow computer for Toronto seniors</image:title>
+      <image:caption>Easy fixes to make a slow computer run faster for seniors</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://northyorktechhelp.ca/blog/organize-photos-ipad-seniors.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://northyorktechhelp.ca/blog/images/organize-photos-ipad/hero-ipad-photos.png</image:loc>
+      <image:title>Organize photos on iPad for North York seniors</image:title>
+      <image:caption>Guide to organizing family photos on iPad with albums, search, and sharing</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://northyorktechhelp.ca/blog/smart-home-setup-seniors.html</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://northyorktechhelp.ca/blog/images/smart-home-setup/hero-smart-home.png</image:loc>
+      <image:title>Smart home setup for seniors in Willowdale and North York</image:title>
+      <image:caption>Easy smart home guide with smart speakers, lights, thermostats, and doorbells</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Blog Posts - February 2026 -->
   <url>
     <loc>https://northyorktechhelp.ca/blog/transfer-photos-iphone-to-computer.html</loc>
     <lastmod>2026-03-04</lastmod>
