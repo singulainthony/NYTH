@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Legacy Planning | North York Tech Help</title>
+    <!-- Mirror the home page's head content to capture all styles and analytics -->
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Minimal critical addition */
+        .digital-legacy-content { padding: 40px 0; }
+        .tier-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px; }
+        .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+    </style>
+</head>
+<body>
+    <!-- Navigation (reusing the navbar from index.html) -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="/" class="logo-link">
+                    <div class="logo">
+                        <div class="logo-text">
+                            <span class="logo-main">NORTH YORK</span>
+                            <span class="logo-sub">TECH HELP</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#services">Services</a></li>
+                <li><a href="/artificial-intelligence/">Artificial Intelligence</a></li>
+                <li><a href="/#areas">Areas</a></li>
+                <li><a href="/#faq">FAQ</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <!-- Highlight new section -->
+                <li><a href="/digital-legacy/" class="nav-cta" style="background:#2563EB; color:white; padding: 8px 16px; border-radius: 6px;">Digital Legacy</a></li>
+                <li><a href="/contact.html" class="nav-cta">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero" style="background:var(--bg-light); padding:80px 0; text-align:center;">
+        <div class="container">
+            <h1>Digital Legacy Planning</h1>
+            <p style="font-size: 1.2rem; max-width: 600px; margin: 20px auto;">Peace of mind for your digital life. Helping families map, secure, and plan the handover of their digital assets.</p>
+        </div>
+    </header>
+
+    <main class="container digital-legacy-content">
+        <section style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;">
+            <div>
+                <h2>What is Digital Legacy Planning?</h2>
+                <p>Your digital life is more than just photos — it's financial assets, email accounts, smart home security, and personal memories. If you were unable to access your accounts tomorrow, would your family know how to?</p>
+                <p>I help you build a system to secure your digital footprint so your family inherits a clear roadmap when you're gone.</p>
+            </div>
+            <!-- Placeholders for images -->
+            <div style="background:#eee; height:300px; border-radius:8px; display:flex; align-items:center; justify-content:center; color:#666;">[Image: Digital Handover]</div>
+        </section>
+
+        <section style="margin-top: 80px;">
+            <h2 style="text-align:center;">Three Tiered Planning</h2>
+            <div class="tier-grid">
+                <div class="card">
+                    <h3>Digital Hygiene</h3>
+                    <p style="font-size:2rem; font-weight:700;">$497</p>
+                    <p>Basic organization, Apple Legacy/Google IAM setup, core backup.</p>
+                </div>
+                <div class="card">
+                    <h3>Legacy Blueprint</h3>
+                    <p style="font-size:2rem; font-weight:700;">$1,497</p>
+                    <p>All-in-one comprehensive planning, encrypted hardware, family binder.</p>
+                </div>
+                <div class="card">
+                    <h3>White-Glove Custodian</h3>
+                    <p style="font-size:2rem; font-weight:700;">$3,497</p>
+                    <p>VIP coordination with lawyers, digitization, YubiKey 2FA setup.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
