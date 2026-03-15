@@ -1722,3 +1722,5 @@ h4 { font-size: 20px; line-height: 1.4; }
         padding: 32px;
     }
 }
+
+.section-alt { background-color: var(--bg-light); padding: var(--section-padding) 0; }

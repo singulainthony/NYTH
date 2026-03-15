@@ -364,7 +364,7 @@
         </div>
     </section>
 
-    <!-- About Section -->
+            <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
             <div class="about-content">
@@ -473,7 +473,25 @@
                     <a href="tel:289-203-4346" class="service-cta">Get Protected →</a>
                 </div>
                 
-                <div class="service-card">
+                                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                    </div>
+                    <h3>Scam Protection & Security</h3>
+                    <p class="service-desc">Learn to spot scams, secure your accounts, and stay safe online. I'll review your digital safety so you can browse confidently.</p>
+                    <ul>
+                        <li>Password help and safe storage</li>
+                        <li>Safe online banking setup</li>
+                        <li>Anti-virus and security checkups</li>
+                        <li>Identifying email & text scams</li>
+                        <li>"Undo" training: recovering from mistakes</li>
+                    </ul>
+                    <a href="tel:289-203-4346" class="service-cta">Get Scam Protection →</a>
+                </div>
+                
+<div class="service-card">
                     <div class="service-icon">
                         <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2">
                             <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 4.44-1.04z"></path>
@@ -505,17 +523,15 @@
             </div>
             <div class="steps">
                 <div class="step">
-                    <div class="step-number">1</div>
                     <div class="step-icon">
                         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2">
                             <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                         </svg>
                     </div>
                     <h3>Call or Text</h3>
-                    <p>Reach out at <strong>289-203-4346</strong>. Tell me what you need help with and we'll find a time that works for you.</p>
+                    <p>Reach out at <a href="tel:289-203-4346" style="font-weight: bold; color: var(--primary-blue);">289-203-4346</a>. Tell me what you need help with and we'll find a time that works for you.</p>
                 </div>
                 <div class="step">
-                    <div class="step-number">2</div>
                     <div class="step-icon">
                         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2">
                             <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
@@ -526,7 +542,6 @@
                     <p>I provide in-home service throughout North York. No need to pack up your devices or travel anywhere.</p>
                 </div>
                 <div class="step">
-                    <div class="step-number">3</div>
                     <div class="step-icon">
                         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2">
                             <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
@@ -670,7 +685,46 @@
         </div>
     </section>
 
-    <!-- Service Areas -->
+        <!-- Intergenerational Program / For Adult Children -->
+    <section id="family" class="section-alt">
+        <div class="container">
+            <div class="family-section" style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 80px; max-width: 1400px; margin: 0 auto;">
+                <div class="family-text" style="flex: 1; max-width: 600px;">
+                    <h2>Help Your Parents Without the Frustration</h2>
+                    <p>Give your parents the gift of tech confidence. I serve as a patient, neutral third-party who can walk them through the technology they want to learn, bridging the gap between generations without the family friction.</p>
+                    <p>My "Tech Tutoring for Grandparents" gift package provides 3 dedicated sessions where I answer every question, fix lingering issues, and leave them with written steps they can refer back to. I'll even communicate with you afterwards to translate the technical hurdles into simple summaries.</p>
+                    <a href="tel:289-203-4346" class="btn btn-primary" style="margin-top: 24px;">Call to Discuss a Gift Package</a>
+                </div>
+                <div class="family-image" style="flex: 0 0 auto;">
+                    <img src="media/family-help.png" alt="Tech Help for the whole family" style="width: 450px; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                </div>
+            </div>
+        </div>
+    </section>
+    <style>
+        @media (max-width: 1024px) {
+            .family-section {
+                flex-direction: column !important;
+                gap: 40px !important;
+            }
+            .family-text {
+                max-width: 100% !important;
+            }
+            .family-image {
+                order: -1;
+            }
+            .family-image img {
+                width: 300px !important;
+            }
+        }
+        @media (max-width: 768px) {
+            .family-image img {
+                width: 280px !important;
+            }
+        }
+    </style>
+
+<!-- Service Areas -->
     <section id="areas" class="service-area">
         <div class="container">
             <div class="section-header">
