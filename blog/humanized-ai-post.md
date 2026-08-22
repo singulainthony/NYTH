@@ -85,7 +85,7 @@ I'm Anthony, an IBM Certified Generative AI Engineer. I live in North York and I
 
 **How it works:**
 
-- $45/hour. No packages, no pressure.
+- $60/hour. No packages, no pressure.
 - I come to you in North York, Willowdale, Thornhill, or nearby
 - If you can use email, you can learn this
 - You get written notes after every session

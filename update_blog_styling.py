@@ -87,7 +87,7 @@ def process_file(filename):
     new_cta = f'''<div class="cta-box">
     <h3>{h3_text}</h3>
     <p>{p_text}</p>
-    <p style="font-size: 1.25rem; margin: 20px 0;"><strong>$45/hour with satisfaction guaranteed</strong></p>
+    <p style="font-size: 1.25rem; margin: 20px 0;"><strong>$60/hour with satisfaction guaranteed</strong></p>
     <a href="tel:289-203-4346" class="btn btn-primary" style="font-size: 1.1rem; padding: 15px 30px;">Call or Text: 289-203-4346</a>
     <p style="margin-top: 15px; font-size: 14px;">Serving North York, Willowdale, Bayview Village, Don Mills & surrounding areas</p>
 </div>'''

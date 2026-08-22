@@ -199,7 +199,7 @@ As a local tech helper who specializes in working with seniors, I provide:
 - **Written instructions** — You'll get notes to refer back to later
 - **No judgment** — Everyone learns at their own pace
 
-**$45/hour with satisfaction guaranteed.** If I can't help you or you're not happy with the service, there's no charge.
+**$60/hour with satisfaction guaranteed.** If I can't help you or you're not happy with the service, there's no charge.
 
 **Call or text anytime:** 289-203-4346
 
