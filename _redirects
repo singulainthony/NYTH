@@ -1,3 +1,12 @@
+# Free AI Program page - must be served before the /ai* catch-all below
+/ai-program/  /ai-program/  200
+/ai-program/*  /ai-program/:splat  200
+
+# SPA fallback (applies only when no static file matches)
 /* /index.html 200
+
+# Legacy AI tutoring paths -> AI consulting page
 /ai-tutoring/* /artificial-intelligence/:splat 301
+
+# Catch-all for any other /ai* paths -> AI consulting page
 /ai* /artificial-intelligence/ 301
