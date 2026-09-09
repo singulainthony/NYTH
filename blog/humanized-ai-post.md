@@ -91,9 +91,7 @@ I'm Anthony, an IBM Certified Generative AI Engineer. I live in North York and I
 - You get written notes after every session
 - We go at your pace—one hour or ten
 
-**Not sure?**
-
-I offer a free 20-minute consultation where we can chat about what you want to learn. No obligation, no sales pitch—just a conversation.
+**Not sure?** Just call or text and we'll figure out the right fit for you.
 
 **Ready to stop feeling confused and start feeling confident?**
 
