@@ -55,6 +55,42 @@
     <priority>0.8</priority>
   </url>
   
+  <!-- Blog Posts - September 2026 -->
+  <url>
+    <loc>https://northyorktechhelp.ca/blog/using-ai-chatbots-safely-north-york-seniors.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://northyorktechhelp.ca/blog/digital-legacy-online-accounts-north-york-seniors.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://northyorktechhelp.ca/blog/medication-reminders-on-your-phone-north-york-seniors.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://northyorktechhelp.ca/blog/phone-accessibility-settings-north-york-seniors.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://northyorktechhelp.ca/blog/using-zoom-for-doctor-appointments-north-york-seniors.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Blog Posts - March 2026 -->
   <url>
     <loc>https://northyorktechhelp.ca/blog/email-setup-iphone-seniors.html</loc>
